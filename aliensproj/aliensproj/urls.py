@@ -19,6 +19,7 @@ from api.views import *
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('aliens/',alien_api),
+    path('aliens/insert/',alien_api),
     path('aliens/update/<id>/',alien_api2),
     path('aliens/delete/<id>/',alien_api2),
 ]
